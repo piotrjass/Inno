@@ -1,6 +1,9 @@
 using System.Net.NetworkInformation;
 using System.Reflection;
+using FluentValidation;
+using HalfbitZadanie.Extensions;
 using InnoProducts.Repositories;
+using InnoProducts.Validators;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +21,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddRequestValidations(); 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

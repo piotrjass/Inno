@@ -170,3 +170,7 @@ C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\runtimes\win\l
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\obj\Debug\net8.0\InnoProducts.sourcelink.json
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
