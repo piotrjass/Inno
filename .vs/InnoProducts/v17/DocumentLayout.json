@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,15 +18,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InnoProducts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InnoProducts\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:08:36.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Program.cs",
+              "RelativeDocumentMoniker": "InnoProducts\\Program.cs",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Program.cs",
+              "RelativeToolTip": "InnoProducts\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:06:32.579Z",
+              "EditorCaption": ""
             }
           ]
         }

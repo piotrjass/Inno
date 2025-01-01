@@ -174,3 +174,8 @@ C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidati
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\obj\Debug\net8.0\InnoProducts.sourcelink.json
 C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\gofrf\Desktop\InnoProducts\InnoProducts\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
