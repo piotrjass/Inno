@@ -1,0 +1,6 @@
+@InnoProducts_HostAddress = http://localhost:5050
+
+GET {{InnoProducts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
