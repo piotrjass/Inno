@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  innoproducts:
+    image: ${DOCKER_REGISTRY-}innoproducts
+    build:
+      context: .
+      dockerfile: InnoProducts/Dockerfile
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+
+  Inno.database:
+    image: postgres:latest
+    container_name: products.database
+    environment:
+      - POSTGRES_DB=Inno
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    volumes:
+      - ./.containers/Inno-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
