@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A5589B8-EDA7-4B30-A44F-71F5656969B3}|Tests\\Tests.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\tests\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5589B8-EDA7-4B30-A44F-71F5656969B3}|Tests\\Tests.csproj|solutionrelative:tests\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\commandshandler\\products\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\commandshandler\\products\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\commandshandler\\products\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\commandshandler\\products\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|c:\\users\\gofrf\\desktop\\innoproducts\\innoproducts\\innoproducts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E73121F8-A45E-4E97-9504-5E286172FFD4}|InnoProducts\\InnoProducts.csproj|solutionrelative:innoproducts\\innoproducts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\CommandsHandler\\Products\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "InnoProducts\\CommandsHandler\\Products\\DeleteProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\CommandsHandler\\Products\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "InnoProducts\\CommandsHandler\\Products\\DeleteProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:50:09.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InnoProducts",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
+              "RelativeDocumentMoniker": "InnoProducts\\InnoProducts.csproj",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
+              "RelativeToolTip": "InnoProducts\\InnoProducts.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T16:50:03.859Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -30,28 +68,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Program.cs",
-              "RelativeDocumentMoniker": "InnoProducts\\Program.cs",
-              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Program.cs*",
-              "RelativeToolTip": "InnoProducts\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\CommandsHandler\\Products\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "InnoProducts\\CommandsHandler\\Products\\CreateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\CommandsHandler\\Products\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "InnoProducts\\CommandsHandler\\Products\\CreateProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T10:45:48.832Z",
+              "WhenOpened": "2025-01-06T16:35:30.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "InnoProducts\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "InnoProducts\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\appsettings.json",
+              "RelativeDocumentMoniker": "InnoProducts\\appsettings.json",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\appsettings.json",
+              "RelativeToolTip": "InnoProducts\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T16:24:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\Tests\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "Tests\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\Tests\\IntegrationTests.cs",
+              "RelativeToolTip": "Tests\\IntegrationTests.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAowFYAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T10:45:07.358Z",
+              "WhenOpened": "2025-01-06T16:20:30.746Z",
               "EditorCaption": ""
             }
           ]
