@@ -7,6 +7,6 @@ public class Product
     public string Description { get; set; }
     public decimal Price { get; set; }
     public bool Availability { get; set; }
-    public int CreatorUserID { get; set; }
+    public string CreatorUserID { get; set; }
     public DateTime CreationDate { get; set; }
 }

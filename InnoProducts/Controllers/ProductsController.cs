@@ -38,9 +38,9 @@ public class ProductsController : ControllerBase
         
         var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         
-        if (userId != null && int.TryParse(userId, out var parsedUserId))
+        if (userId != null)
         {
-            command.CreatorUserID = parsedUserId;  
+            command.CreatorUserID = userId;  
         }
         else
         {
@@ -59,12 +59,48 @@ public class ProductsController : ControllerBase
             return BadRequest("Product ID mismatch.");
         }
 
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (string.IsNullOrEmpty(userId))
+        {
+            return Unauthorized("User not authenticated.");
+        }
+
+        var product = await _mediator.Send(new GetProductByIdQuery { Id = id });
+        if (product == null)
+        {
+            return NotFound("Product not found.");
+        }
+
+        if (product.CreatorUserID != userId)
+        {
+            return Forbid("You are not authorized to update this product.");
+        }
+
         return (await _mediator.Send(command)) ? NoContent() : NotFound();
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(int id)
     {
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (string.IsNullOrEmpty(userId))
+        {
+            return Unauthorized("User not authenticated.");
+        }
+
+        var product = await _mediator.Send(new GetProductByIdQuery { Id = id });
+        if (product == null)
+        {
+            return NotFound("Product not found.");
+        }
+
+        if (product.CreatorUserID != userId)
+        {
+            return Forbid("You are not authorized to delete this product.");
+        }
+
         return (await _mediator.Send(new DeleteProductCommand { Id = id })) ? NoContent() : NotFound();
     }
 }
