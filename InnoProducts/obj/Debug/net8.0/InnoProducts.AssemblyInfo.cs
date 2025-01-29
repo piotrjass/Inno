@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InnoProducts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df4b85358326c94d688ba4dfdc1a0ea869cadb9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce98095915d70a6c7f5123b5cf262bf826c42448")]
 [assembly: System.Reflection.AssemblyProductAttribute("InnoProducts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InnoProducts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

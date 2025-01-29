@@ -5697,11 +5697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
+      "projectUniqueName": "C:\\Users\\gofrf\\Desktop\\Różne Rekturacje\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
       "projectName": "InnoProducts",
-      "projectPath": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
+      "projectPath": "C:\\Users\\gofrf\\Desktop\\Różne Rekturacje\\InnoProducts\\InnoProducts\\InnoProducts.csproj",
       "packagesPath": "C:\\Users\\gofrf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gofrf\\Desktop\\InnoProducts\\InnoProducts\\obj\\",
+      "outputPath": "C:\\Users\\gofrf\\Desktop\\Różne Rekturacje\\InnoProducts\\InnoProducts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gofrf\\AppData\\Roaming\\NuGet\\NuGet.Config",
